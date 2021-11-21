@@ -3,6 +3,14 @@
           box-sizing: border-box;
 }
 
+button {
+  border-radius: 5px;
+}
+
+button_black {
+  background: #000000;
+}
+
 text {
   font-family: Proxima Nova;
 }

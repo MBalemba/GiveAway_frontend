@@ -2,6 +2,17 @@
     box-sizing: border-box;
 }
 
+button{
+    border-radius: 5px;
+
+    &_black{
+        background: #000000;
+    }
+
+    
+}
+
+
 text{
     font-family: Proxima Nova;
     &_normal{
