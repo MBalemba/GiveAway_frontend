@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/fonts/stylesheet.css" rel="stylesheet">
     <link href="./style/style.css" rel="stylesheet">
     <title>GiveAway</title>
 </head>
@@ -13,16 +14,18 @@
     <header class="header">
         <div class="header__adaptive">
             <div class="header__left">
-                <h1 class="title">
+                <h1 class="header__title text text_48">
                     Autumn Giveaways for FREE
                 </h1>
 
-                <p class="subtitle">
-                    Participate in Autumn Giveaway and
-                    treat yourself
-                    to nice and refreshing
-                    cosmetics for free
-                </p>
+                <div class="header__subtitle">
+                    <p class=" text text_24 text_opacity60">
+                        Participate in Autumn Giveaway and
+                        treat yourself
+                        to nice and refreshing
+                        cosmetics for free
+                    </p>
+                </div>
             </div>
 
             <div class='header__right right'>
@@ -33,10 +36,12 @@
         </div>
     </header>
 
+
+
     <main class="body">
         <div class="body__adaptive">
 
-            <div class="gallery">
+            <section class="gallery">
                 <div class="gallery__menu">
                     <div class="gallery__button">
                         <img src="assets/1280/main/svg/arrowUp.svg" alt="arrowUp">
@@ -44,13 +49,13 @@
 
                     <div class="gallery__horizontalImg horizontalImg">
                         <div class="horizontalImg__item">
-                            <img src="assets/1280/main/img/2a 3.png" alt="item">
+                            <img class="horizontalImg__img" src="assets/1280/main/img/2a 3.png" alt="item">
                         </div>
                         <div class="horizontalImg__item">
-                            <img src="assets/1280/main/img/2b 1.png" alt="item">
+                            <img class="horizontalImg__img" src="assets/1280/main/img/2b 1.png" alt="item">
                         </div>
                         <div class="horizontalImg__item">
-                            <img src="assets/1280/main/img/5 2.png" alt="item">
+                            <img class="horizontalImg__img" src="assets/1280/main/img/5 2.png" alt="item">
                         </div>
                     </div>
 
@@ -62,23 +67,23 @@
                 <div class="gallery__selectedImg">
                     <img src="assets/1280/main/img/2a 2.png" alt="">
                 </div>
-            </div>
+            </section>
 
 
-            <div class="haracteristic">
+            <section class="haracteristic">
                 <div class="haracteristic__raiting raiting">
-                    <p class="raiting__name">
+                    <p class="raiting__name text text_18 text_bold">
                         Best seller
                     </p>
 
 
                     <div class="raiting__starsBlock">
                         <div class="stars">
-                            <img src="assets/1280/main/svg/star.svg" alt="*">
-                            <img src="assets/1280/main/svg/star.svg" alt="*">
-                            <img src="assets/1280/main/svg/star.svg" alt="*">
-                            <img src="assets/1280/main/svg/star.svg" alt="*">
-                            <img src="assets/1280/main/svg/star.svg" alt="*">
+                            <img class="stars_star" src="assets/1280/main/svg/star.svg" alt="*">
+                            <img class="stars_star" src="assets/1280/main/svg/star.svg" alt="*">
+                            <img class="stars_star" src="assets/1280/main/svg/star.svg" alt="*">
+                            <img class="stars_star" src="assets/1280/main/svg/star.svg" alt="*">
+                            <img class="stars_star" src="assets/1280/main/svg/star.svg" alt="*">
                         </div>
 
                         <div class="raiting__reviewsNumber">
@@ -91,23 +96,24 @@
                 </div>
 
                 <div class="haracteristic__header">
-                    <h2>
+                    <h2 class="text text_30 text_bold">
                         Acne Treatment Cystic Acne heals, repairs & renews
                     </h2>
                 </div>
 
                 <div class="haracteristic__description description">
-                    <p class="description__title ">
-
+                    <p class="description__title text text_18 text_bold">
+                        Description:
                     </p>
 
-                    <p class="description__content ">
-
+                    <p class="description__content text text_18 text_opacity60">
+                        Addictively refreshing gel-cream leaves skin
+                        plump, dewy, glowing.
                     </p>
                 </div>
 
                 <div class="haracteristic__itemsLeft">
-                    <div class="itemsLeft">
+                    <div class="itemsLeft text text_bold text_18 text_upper text_white">
                         items left: 12
                     </div>
                 </div>
@@ -117,60 +123,250 @@
                 </div>
 
                 <div class="haracteristic__priceBlock">
-                    <p>
-                        <span>
+
+                    <p class="text text_bold text_upper text_24">
+                        <span class="haracteristic__discount text text_18 text_upper text_opacity60">
                             us$25.89
                         </span>
-
                         $0.00 FREE
                     </p>
                 </div>
 
                 <div class="haracteristic__buttonBlock">
-                    <button class="button button_black haracteristic__button">
+                    <button class="button button_black haracteristic__button text_white">
                         select
                     </button>
+                    <div class="haracteristic__logo">
+                        <img src="assets/1280/main/svg/amazon_prime_logo.svg" alt="amazon_prime_logo">
+                    </div>
                 </div>
 
-                <div class="haracteristic__logo">
-                    <img src="assets/1280/main/svg/amazon_prime_logo.svg" alt="amazon_prime_logo">
-                </div>
-            </div>
+
+            </section>
 
 
-            <div class="Overview">
-                <h3 class="Overview__header">
-
+            <section class="Overview">
+                <h3 class="Overview__header text text_48">
+                    Overview
                 </h3>
 
-                <div class="Overview__textBlock textBlock">
-                    <div class="textBlock__subtitle">
-                        Who It's For
+                <div class="Overview__infoBlock">
+                    <div class="Overview__textBlock textBlock">
+                        <p class="textBlock__subtitle text text_18 text_bold">
+                            Who It's For
+                        </p>
+
+                        <p class="text text_18 text_opacity60">
+                            Very Dry, Dry, Dry Combination Skin (Type 1, 2)
+                        </p>
+
+                    </div>
+
+                    <div class="Overview__textBlock textBlock">
+                        <p class="textBlock__subtitle text text_18 text_bold">
+                            What It Is
+                        </p>
+                        <p class="text text_18 text_opacity60">
+                            Step 3 in our customized 3-Step Skincare System.
+                            Dermatologist-developed face moisturizer softens, smooths, improves. Leaves skin glowing.
+                        </p>
+                    </div>
+
+                    <div class="Overview__textBlock textBlock">
+                        <p class="textBlock__subtitle text text_18 text_bold">
+                            What It Does
+                        </p>
+
+                        <p class="text text_18 text_opacity60">
+                            Silky lotion delivers 8-hour hydration.
+                            Slips on easily, absorbs quickly.
+                            Helps strengthen skin’s own moisture barrier so more moisture stays in. Skin that holds onto
+                            moisture has a youthful-looking glow.
+                        </p>
+                    </div>
+
+                    <div class="Overview__textBlock textBlock">
+                        <p class="textBlock__subtitle text text_18 text_bold"></p>
+
+                        <p class="text text_18 text_opacity60">
+
+                        </p>
                     </div>
                 </div>
 
-                <div class="Overview__textBlock textBlock">
-                    <div class="textBlock__subtitle">
-                        What It Is
+                <p class="Overview__readmore text text_18 text_opacity60 text_bold">
+                    Read more...
+                </p>
+
+            </section>
+
+
+            <section class="steps">
+                <div class="steps__adaptive">
+                    <div class="steps__menu">
+                        <div class="steps__circle steps__circle_activated ">
+                            <span class="text text_18 text_white">
+                                1
+                            </span>
+                        </div>
+
+                        <div class="steps__stick steps__stick_active">
+                        </div>
+                        <div class="steps__circle steps__circle_active">
+                            <span class="text text_18 text_white">
+                                2
+                            </span>
+                        </div>
+                        <div class="steps__stick">
+                        </div>
+                        <div class="steps__circle">
+                            <span class="text text_18 text_white">
+                                3
+                            </span>
+                        </div>
+
+                        <div class="steps__stick">
+                        </div>
+
+                        <div class="steps__circle">
+                            <span class="text text_18 text_white">
+                                4
+                            </span>
+                        </div>
+
+                        <div class="steps__stick">
+                        </div>
+
+                        <div class="steps__circle">
+                            <span class="text text_18 text_white">
+                                5
+                            </span>
+                        </div>
+
                     </div>
-                </div>
 
-                <div class="Overview__textBlock textBlock">
-                    <div class="textBlock__subtitle">
-                        What It Does
+                    <div class="steps__notMenu">
+                        <div class="steps__content">
+                            <h3 class="steps__h3 text text_48 text_bold text_opacity60">Step 1</h3>
+                            <h4 class="steps__h4 text text_48 text_bold">Lorem ipsum dolor
+                                sit amet
+                            </h4>
+
+                            <p class='steps__text'>
+                                Aliquam urna arcu, scelerisque vel viverra sed, pellentesque sit amet metus. Curabitur
+                                at luctus
+                                massa. Vestibulum pretium sem tortor, vitae mattis odio accumsan vitae. Fusce id luctus
+                                erat:
+
+                            </p>
+
+                            <ul class="steps__list text text_18 text_opacity60">
+                                <li>Mauris rutrum interdum condimentum.</li>
+                                <li>Donec commodo quis arcu eget pretium.</li>
+                            </ul>
+
+                            <button
+                                class="steps__button button button_black text text_upper text_18 text_bold text_white">
+                                Agree and continue
+                            </button>
+                        </div>
+
+                        <div class="steps__image">
+                            <img src="assets/1280/steps/picture_giveaway_color 1.png" alt="cream">
+                        </div>
                     </div>
+
+                    <div class="steps__notMenu">
+                        <div class="steps__content">
+                            <h3 class="steps__h3 text text_48 text_bold text_opacity60">Step 2</h3>
+                            <h4 class="steps__h4 text text_48 text_bold">Share Facebook post
+                            </h4>
+
+                            <p class='steps__text'>
+                                To participate in this giveaway please share this giveaway offer with your friends. Not
+                                only your friends will appreciate this offer but you will receive $10 Amazon Gift Card
+                                for each of your friends that participates in this giveaway!
+                            </p>
+
+                            <button
+                                class="steps__button button button_black text text_upper text_18 text_bold text_white">
+                                continue
+                            </button>
+                        </div>
+
+                        <div class="steps__image">
+                            <img src="assets/1280/steps/facebook_post.png" alt="cream">
+                        </div>
+                    </div>
+
+
+                    <div class="steps__notMenu">
+                        <div class="steps__content">
+                            <h3 class="steps__h3 text text_48 text_bold text_opacity60">Step 3</h3>
+                            <h4 class="steps__h4 text text_48 text_bold">Amazon Prime
+                            </h4>
+
+                            <p class='steps__text'>
+                                Do you have an Amazon Prime account?
+                            </p>
+
+                            <p class='steps__text'>
+                                To be able to participate in this giveaway you need to have Amazon Prime.
+                            </p>
+
+                            <button
+                                class="steps__button button button_black text text_upper text_18 text_bold text_white">
+                                Yes, i have
+                            </button>
+                            <button
+                                class="steps__button button button_black text text_upper text_18 text_bold text_white">
+                                no, i don’t have
+                            </button>
+                        </div>
+
+                        <div class="steps__image">
+                            <img src="assets/1280/steps/picture_giveaway_color 1.png" alt="cream">
+                        </div>
+                    </div>
+
+                    <div class="steps__notMenu">
+                        <div class="steps__content">
+                            <h3 class="steps__h3 text text_48 text_bold text_opacity60">Step 4</h3>
+                            <h4 class="steps__h4 text text_48 text_bold">How to Buy a Product 
+                                with 100% BONUS!
+                            </h4>
+
+                            <p class='steps__text'>
+                                Do you have an Amazon Prime account?
+                            </p>
+
+                            <p class='steps__text'>
+                                To be able to participate in this giveaway you need to have Amazon Prime.
+                            </p>
+
+                            <button
+                                class="steps__button button button_black text text_upper text_18 text_bold text_white">
+                                Yes, i have
+                            </button>
+                            <button
+                                class="steps__button button button_black text text_upper text_18 text_bold text_white">
+                                no, i don’t have
+                            </button>
+                        </div>
+
+                        <div class="steps__image">
+                            <img src="assets/1280/steps/picture_giveaway_color 1.png" alt="cream">
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="Overview__textBlock textBlock">
-                    <div class="textBlock__subtitle"></div>
-                </div>
 
-            </div>
+            </section>
 
-
-            <div class="hdiw">
+            <section class="hdiw">
                 <div class="hdiw__title">
-                    <h3>How does it work?</h3>
+                    <h3 class="text text_48 text_bold">How does it work?</h3>
                 </div>
 
                 <div class="hdiw__line">
@@ -178,11 +374,12 @@
                     <div class="hdiw__item">
                         <div class="item">
                             <div class="item__content">
-                                <p class="item__textContent">
+                                <div class="text text_24 text_upper text_bold item__textContent">
                                     Easy
                                     as
+                                    <br>
                                     1-2-3
-                                </p>
+                                </div>
                             </div>
                         </div>
 
@@ -192,53 +389,62 @@
 
                     </div>
 
+                    <img src="assets/1280/main/svg/hdiw/arrow.svg" alt="">
+
+
                     <div class="hdiw__item">
                         <div class="item">
                             <div class="item__content">
-
+                                <img src="assets/1280/main/svg/hdiw/cup .svg" alt="">
                             </div>
                         </div>
 
-                        <div class="hdiw__text">
+                        <div class="hdiw__text text text_18 text_bold">
                             Choose product
                         </div>
 
                     </div>
 
+                    <img src="assets/1280/main/svg/hdiw/arrow.svg" alt="">
+
                     <div class="hdiw__item">
                         <div class="item">
                             <div class="item__content">
-
+                                <img src="assets/1280/main/svg/hdiw/packet.svg" alt="">
                             </div>
                         </div>
 
-                        <div class="hdiw__text">
+                        <div class="hdiw__text text text_18 text_bold">
                             Buy product
                         </div>
 
                     </div>
 
+                    <img src="assets/1280/main/svg/hdiw/arrow.svg" alt="">
+
                     <div class="hdiw__item">
                         <div class="item">
                             <div class="item__content">
-                                
+                                <img src="assets/1280/main/svg/hdiw/dialog.svg" alt="">
                             </div>
                         </div>
 
-                        <div class="hdiw__text">
+                        <div class="hdiw__text text text_18 text_bold">
                             Test and share review
                         </div>
 
                     </div>
 
+                    <img src="assets/1280/main/svg/hdiw/arrow.svg" alt="">
+
                     <div class="hdiw__item">
                         <div class="item">
                             <div class="item__content">
-                               
+                                <img src="assets/1280/main/svg/hdiw/earn.svg" alt="">
                             </div>
                         </div>
 
-                        <div class="hdiw__text">
+                        <div class="hdiw__text text text_18 text_bold">
                             Get 100% money back
                         </div>
 
@@ -246,63 +452,87 @@
 
 
                 </div>
-            </div>
-
-
-
-
-
-
+            </section>
 
         </div>
     </main>
 
+
+
+
+
+
+
+
+
     <footer class="footer">
         <div class="footer__adaptive">
             <div class="footer__block">
-                <div class="footer__blockItems">
+
+                <h5 class="footer__blockItems text text_18 text_bold">
                     Privacy and Terms
-                </div>
+                </h5>
 
-                <div class="footer__blockItems">
-                    
-                    <a href="#">Privacy Policy</a>
-                </div>
 
-                <div class="footer__blockItems">
-                    
-                    <a href="#">Terms of uses</a>
-                </div>
+
+
+                <ul class="footer__list">
+                    <li class="footer__blockItems text text_18">
+                        <a href="#">
+                            Privacy Policy
+                        </a>
+                    </li>
+                    <li class="footer__blockItems text text_18">
+                        <a href="#">
+                            Terms of uses
+                        </a>
+                    </li>
+                </ul>
+
             </div>
 
             <div class="footer__block">
-                <div class="footer__blockItems">
-                    <a href="#">
-                        Need Help?
-                    </a>
-                </div>
+                <h5 class="footer__blockItems text text_18 text_bold">
+                    Need Help?
+                </h5>
+                <ul class="footer__list">
+                    <li class="footer__blockItems text text_18">
+                        <a href="mailto:mail@gmail.com">
+                            mail@gmail.com
+                        </a>
+                    </li>
+                </ul>
 
-                <div class="footer__blockItems">
-                    <a href="mailto:mail@gmail.com">mail@gmail.com</a>
-                </div>
-                
             </div>
 
             <div class="footer__block">
-                
-                <div class="footer__blockItems">
+
+                <h5 class="footer__blockItems text text_18 text_bold">
                     Social
-                </div>
-                <div class="footer__blockItems">
-                    <a href="#">
-                    Facebook
-                    </a>
-                </div>
-                <div class="footer__blockItems">
-                    <a href="#">
-                    Instagram
-                    </a>
-                </div>
+                </h5>
+
+                <ul class="footer__list">
+                    <li class="footer__blockItems text text_18">
+                        <a href="#">
+                            Facebook
+                        </a>
+                    </li>
+                    <li class="footer__blockItems text text_18">
+                        <a href="#">
+                            Instagram
+                        </a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+
+        <div class="footer__footer">
+            <div class="footer__line">
+                <p class="text">
+                    © All Rights Reserved
+                </p>
             </div>
         </div>
     </footer>
