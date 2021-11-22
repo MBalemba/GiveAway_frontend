@@ -543,6 +543,11 @@ a {
   margin-bottom: 20px;
 }
 
+.steps__subText {
+  font-size: 14px;
+  line-height: 17px;
+}
+
 .steps__list {
   list-style: decimal;
 }
@@ -552,6 +557,54 @@ a {
   height: 60px;
   padding: 19px auto;
   margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.steps .liststep4 {
+  margin-top: 20px;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.steps .liststep4__li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.steps .liststep4__circle {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 13px;
+  background-color: #000000;
+  min-width: 28px;
+  min-height: 28px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer {

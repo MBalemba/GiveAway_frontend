@@ -391,9 +391,10 @@ a {
 
 .steps {
     margin-bottom: 50px;
+
     &__adaptive {
         padding: 0px 50px;
-        
+
         width: 1280px;
         margin: 0px auto;
         display: flex;
@@ -473,6 +474,11 @@ a {
         margin-bottom: 20px;
     }
 
+    &__subText {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
     &__list {
         list-style: decimal;
     }
@@ -482,10 +488,43 @@ a {
         height: 60px;
         padding: 19px auto;
         margin-top: 40px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 
     &__image {}
+
+
+    .liststep4 {
+        margin-top: 20px;
+        padding: 0;
+
+        &__li {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        &__circle {
+            box-sizing: border-box;
+            margin-right: 13px;
+            background-color: #000000;
+            min-width: 28px;
+            min-height: 28px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        margin-bottom: 20px;
+    }
 }
+
+
 
 .footer {
     background-color: #EEEEEE;
