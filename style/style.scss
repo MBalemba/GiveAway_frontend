@@ -464,7 +464,6 @@ a:hover {
         height: auto;
         margin: 50px 0px;
 
-
         &__header {
             line-height: 58px;
         }
@@ -495,14 +494,15 @@ a:hover {
     }
 
     @media (max-width: 1280px) {
+        padding-bottom: 40px;
         &__adaptive {
             width: 768px;
             padding: 0 20px;
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
-
-
+           
+        
         }
 
         .gallery {
