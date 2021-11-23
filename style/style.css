@@ -27,12 +27,27 @@ a {
   color: #000000;
 }
 
+a:hover {
+  color: #2196F3;
+}
+
 .button {
   border-radius: 5px;
 }
 
 .button_black {
   background: #000000;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.button_black:hover {
+  background: #2196F3;
+  -webkit-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
 }
 
 .button_red {
