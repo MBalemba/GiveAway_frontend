@@ -42,7 +42,7 @@ class Application{
     }
 
     buttonFunc(){
-        debugger
+        
         this.buttons = document.querySelectorAll('.agree');
         this.lastButtons = document.querySelectorAll('.lastButtons');
 
