@@ -134,6 +134,10 @@ a {
       flex-wrap: wrap;
 }
 
+.body .none {
+  display: none;
+}
+
 .body .gallery {
   min-width: 650px;
   height: 560px;
@@ -332,8 +336,8 @@ a {
 
 .body .Overview {
   width: 650px;
-  height: 422px;
-  margin-top: 50px;
+  height: auto;
+  margin: 50px 0px;
 }
 
 .body .Overview__header {
@@ -348,13 +352,20 @@ a {
   margin-bottom: 20px;
 }
 
+.body .Overview__textBlock_disabled {
+  display: none;
+}
+
 .body .Overview__readmore {
   cursor: pointer;
 }
 
-.body .hdiw {
+.body .Overview__ul {
+  padding: 20px;
+}
+
+.hdiw {
   width: 100%;
-  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -363,14 +374,21 @@ a {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 100px;
 }
 
-.body .hdiw__title {
+.hdiw__adaptive {
+  width: 1280px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+.hdiw__title {
   line-height: 58px;
   margin-bottom: 20px;
 }
 
-.body .hdiw__line {
+.hdiw__line {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -380,7 +398,7 @@ a {
           justify-content: space-between;
 }
 
-.body .hdiw__item {
+.hdiw__item {
   min-height: 212px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -397,7 +415,7 @@ a {
           align-items: center;
 }
 
-.body .hdiw__item .item {
+.hdiw__item .item {
   width: 180px;
   height: 180px;
   background: #FFFFFF;
@@ -415,11 +433,11 @@ a {
           align-items: center;
 }
 
-.body .hdiw__item .item__content {
+.hdiw__item .item__content {
   vertical-align: middle;
 }
 
-.body .hdiw__item .item__textContent {
+.hdiw__item .item__textContent {
   font-size: 36px;
   width: 80px;
   height: 105px;
@@ -437,6 +455,10 @@ a {
 
 .steps {
   margin-bottom: 50px;
+}
+
+.steps__none {
+  display: none;
 }
 
 .steps__adaptive {
@@ -485,21 +507,25 @@ a {
   height: 36px;
   border-radius: 50%;
   background-color: #DDDDDD;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .steps__circle_activated {
   background-color: #2196F3;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .steps__circle_active {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
   background-color: #2196F3;
   position: relative;
   z-index: 10;
   -webkit-box-shadow: 0 0 0px 1px #2196F3;
           box-shadow: 0 0 0px 1px #2196F3;
-  border: 5px solid white;
+  border: 3px solid white;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .steps__stick {
@@ -507,6 +533,8 @@ a {
   height: 76px;
   width: 2px;
   background-color: #DDDDDD;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .steps__stick_active {
@@ -525,7 +553,7 @@ a {
 
 .steps__content {
   width: 480px;
-  height: 454px;
+  height: auto;
   margin-right: 20px;
 }
 
@@ -655,5 +683,9 @@ a {
   width: 1280px;
   padding: 0 50px;
   margin: 0 auto;
+}
+
+.displayNone {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */
